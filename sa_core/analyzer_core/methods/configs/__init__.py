@@ -1,0 +1,5 @@
+# Configs for steganalysis methods
+
+import sa_core.analyzer_core.methods.configs.chi_square_config as chi_square_config
+import sa_core.analyzer_core.methods.configs.regular_singular_config as regular_singular_config
+import sa_core.analyzer_core.methods.configs.koch_zhao_analysis_config as koch_zhao_analysis_config
