@@ -44,7 +44,7 @@ class KochZhaoAnalysisMethod:
         self.__write_results()
 
         # Trying to extract hidden data
-        ex = [] if try_extract else None
+        ex = "" if try_extract else None
         if try_extract and r.threshold > THRESHOLD:
             decryptor = KzEx(threshold=r.threshold, coeffs=DCT_COEFFICIENTS, block_size=BLOCK_SIZE)
             ex = decryptor.extract(self.__img, coords=r.indexes)

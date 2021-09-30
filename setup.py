@@ -3,7 +3,7 @@ from os.path import join, dirname
 
 setup(
     name='sa_core',
-    version='1.2.1.22',
+    version='1.2.1.23',
     packages=find_packages(),
     description="Steganalysis core",
     long_description=open(join(dirname(__file__), 'README.txt')).read(),
